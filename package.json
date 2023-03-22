@@ -2,6 +2,7 @@
   "name": "editor-poc",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdx-js/mdx": "^2.3.0",
+    "@mdx-js/react": "^2.3.0",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
