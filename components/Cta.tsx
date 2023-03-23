@@ -6,6 +6,8 @@ export interface CtaProps {
 }
 
 export default function Cta(props: CtaProps) {
+  console.log("props", props)
+
   return (
     <div style={{backgroundColor: props.backgroundColor}}>
       Olá, {props.nome}!
