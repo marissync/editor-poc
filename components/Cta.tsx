@@ -5,14 +5,13 @@ export interface CtaProps {
     backgroundColor: string
 }
 
-export default function Cta(props: CtaProps) {
+export function Cta(props: CtaProps) {
   return (
-    <div style={{backgroundColor: props.backgroundColor}}>
-      Olá, {props.nome}!
-      <br /> 
-      <br />
-      <br />
-      The End
+    <div style={{backgroundColor: props.backgroundColor ?? "grey"}}>            
+      <h2>The Begin of CTA</h2>
+      <p>Olá, {props.nome ?? "Nenhum nome foi passado"}!</p>
+      <h2>The End of CTA</h2>
+      <hr />
     </div>
   )
 };
